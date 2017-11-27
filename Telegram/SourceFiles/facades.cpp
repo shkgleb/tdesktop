@@ -564,7 +564,7 @@ struct Data {
 	int32 EditTimeLimit = 172800;
 	int32 StickersRecentLimit = 30;
 	int32 StickersFavedLimit = 5;
-	int32 PinnedDialogsCountMax = 5;
+	int32 PinnedDialogsCountMax = 20;
 	QString InternalLinksDomain = qsl("https://t.me/");
 	int32 CallReceiveTimeoutMs = 20000;
 	int32 CallRingTimeoutMs = 90000;
