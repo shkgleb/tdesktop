@@ -20,6 +20,9 @@ before_build:
 build:
   project: Telegram\Telegram.sln
 
+after_build:
+  - .\.appveyor\ftp.bat
+
 artifacts:
   - path: out\Debug\Telegram.exe
     name: Telegram_debug.exe
